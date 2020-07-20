@@ -25,7 +25,7 @@
   <p align="center">
     The first-ever AI-driven, multi-platform, and scalable attendance system
     <br />
-    <a href="#Table of Contents"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ashayp22/Recogg"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/ashayp22/Recogg">View Demo</a>
