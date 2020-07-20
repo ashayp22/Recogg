@@ -46,6 +46,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  * [Features](#features)
 * [Usage](#usage)
 * [Authors](#authors)
 * [Contributing](#contributing)
@@ -77,7 +78,7 @@ This section should list any major frameworks that you built your project using.
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
 
-
+### Features
 
 <!-- GETTING STARTED -->
 ## Getting Started
