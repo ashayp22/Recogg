@@ -176,7 +176,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/ashayp22/Recogg/graphs/contributors
-[license-shield]: https://img.shields.io/badge/license-GPL--3-green
+[license-shield]: https://img.shields.io/badge/license-GPL--3-blue
 [license-url]: https://github.com/ashayp22/Recogg/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen
