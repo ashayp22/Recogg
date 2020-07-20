@@ -142,7 +142,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 
 
@@ -171,12 +171,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/ashayp22/Recogg/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/badge/license-GPL--3-green
 [license-url]: https://github.com/ashayp22/Recogg/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
