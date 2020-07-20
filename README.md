@@ -10,7 +10,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![GPL-3.0 License][license-shield]][license-url]
 ![Build][build-shield]
-![Version][version-shield][version-url]
+[![Version][version-shield][version-url]]
 
 
 <!-- PROJECT LOGO -->
