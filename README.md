@@ -9,7 +9,7 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![GPL-3.0 License][license-shield]][license-url]
-[![Build][build-shield]]
+![Build][build-shield]
 
 
 
