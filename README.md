@@ -80,6 +80,8 @@ This section should list any major frameworks that you built your project using.
 
 ### Features
 
+List the features here
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
