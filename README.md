@@ -179,4 +179,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-shield]: https://img.shields.io/badge/license-GPL--3-green
 [license-url]: https://github.com/ashayp22/Recogg/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-[build-shield]: https://img.shields.io/badge/build-passing-green
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen
