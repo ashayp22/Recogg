@@ -73,7 +73,14 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
-
+![Node.js](https://img.shields.io/node/v/express)
+![NPM](https://img.shields.io/badge/npm-%3E%3D6.9-orange)
+![Python](https://img.shields.io/badge/python-3.6-blue)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%3E%3D4.0-red)
+![Raspberry-Pi](https://img.shields.io/badge/raspberry--pi-4-green)
+![HTML](https://img.shields.io/badge/HTML-5-yellowgreen)
+![CSS](https://img.shields.io/badge/css-3-yellow)
+![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
