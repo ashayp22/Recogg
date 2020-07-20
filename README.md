@@ -10,7 +10,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![GPL-3.0 License][license-shield]][license-url]
 ![Build][build-shield]
-
+![Version][https://img.shields.io/badge/version-1.0-red]
 
 
 <!-- PROJECT LOGO -->
