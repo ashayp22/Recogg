@@ -174,7 +174,7 @@ Ashay Parikh - [@ashayp22](mailto:ashayp22@gmail.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/badge/contributors-4-yellow
 [contributors-url]: https://github.com/ashayp22/Recogg/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-GPL--3-blue
 [license-url]: https://github.com/ashayp22/Recogg/blob/master/LICENSE.txt
