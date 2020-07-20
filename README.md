@@ -46,9 +46,8 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Features](#features)
 * [Usage](#usage)
-* [Authors](#authors)
+* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -73,14 +72,22 @@ Of course, no one template will serve all projects since your needs may be diffe
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
+[![Contributors][contributors-shield]][contributors-url]
+[![GPL-3.0 License][license-shield]][license-url]
+
+
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Node.js](https://nodejs.org/en/)
+* [Python](https://www.python.org/)
+* [HTML/CSS/JavaScript](https://html-css-js.com/)
+* [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+* [Amazon S3](https://aws.amazon.com/s3/)
+* [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
+* [AWS](https://aws.amazon.com/)
 
 ### Features
 
-List the features here
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -124,12 +131,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Authors
+## Roadmap
 
-* [Ashay Parikh](https://www.linkedin.com/in/ashay-parikh-a0621619a/) - API, Web-Interface (Backend)
-* [Manas Gandhi](https://www.linkedin.com/in/manas-gandhi-358827199/) - IoT (Raspberry-Pi)
-* [Izhaan Hussain](https://www.linkedin.com/in/izhaan-hussain-0baa711a7/) - Web-Interface (Frontend)
-* [Sebastian DSouza](https://www.linkedin.com/in/sebastian-dsouza-975b311a2/) - IoT (Hardware)
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
 
