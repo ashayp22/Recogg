@@ -10,7 +10,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![GPL-3.0 License][license-shield]][license-url]
 ![Build][build-shield]
-![Version][https://img.shields.io/badge/version-1.0-red]
+![Version][version-shield][version-url]
 
 
 <!-- PROJECT LOGO -->
@@ -180,3 +180,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/ashayp22/Recogg/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen
+[version-shield]: https://img.shields.io/badge/version-1.0-red
+[version-url]: https://github.com/ashayp22/Recogg
