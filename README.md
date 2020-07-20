@@ -123,10 +123,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Authors
 
-* [Ashay Parikh](https://www.linkedin.com/in/ashay-parikh-a0621619a/)
-* [Manas Gandhi](https://www.linkedin.com/in/manas-gandhi-358827199/)
-* [Izhaan Hussain](https://www.linkedin.com/in/izhaan-hussain-0baa711a7/)
-* [Sebastian DSouza](https://www.linkedin.com/in/sebastian-dsouza-975b311a2/)
+* [Ashay Parikh](https://www.linkedin.com/in/ashay-parikh-a0621619a/) - API, Web-Interface (Backend)
+* [Manas Gandhi](https://www.linkedin.com/in/manas-gandhi-358827199/) - IoT (Raspberry-Pi)
+* [Izhaan Hussain](https://www.linkedin.com/in/izhaan-hussain-0baa711a7/) - Web-Interface (Frontend)
+* [Sebastian DSouza](https://www.linkedin.com/in/sebastian-dsouza-975b311a2/) - IoT (Hardware)
 
 
 
