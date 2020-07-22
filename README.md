@@ -73,7 +73,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
-![Node.js](https://img.shields.io/node/v/express)
+![Node.js](https://img.shields.io/badge/node-%3E%3D10.16.0-green)
 ![NPM](https://img.shields.io/badge/npm-%3E%3D6.9-orange)
 ![Python](https://img.shields.io/badge/python-3.6-blue)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%3E%3D4.0-red)
