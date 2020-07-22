@@ -83,14 +83,14 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
+
 * [Node.js](https://nodejs.org/en/)
 * [Python](https://www.python.org/)
+* [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
+* [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JavaScript](https://html-css-js.com/)
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 * [Amazon S3](https://aws.amazon.com/s3/)
-* [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
-* [AWS](https://aws.amazon.com/)
 
 ### Features
 
