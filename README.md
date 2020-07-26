@@ -74,7 +74,7 @@ So, in order to prove that technology can be used to create an attendance system
 * A database and storage container to save an organization's attendance data
 * A web interface, Raspberry Pi, and LCD screen to display an organization's information
 
-Recogg was developed in 7 weeks as an [internship project](https://www.itexps.net/internship-programs) and developed as a concept/prototype for future production projects. 
+Recogg was developed in 7 weeks as an [internship project](https://www.itexps.net/internship-programs) and developed as a concept/prototype for future production-level projects. 
 
 ### Features
 The beauty of Recogg is that it uses the features of multiple components to create a fully-functioning attendance system.
