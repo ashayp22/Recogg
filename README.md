@@ -50,8 +50,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -179,11 +177,6 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 Ashay Parikh - [@ashayp22](mailto:ashayp22@gmail.com)
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Img Shields](https://shields.io)
-* 
 
 
 
