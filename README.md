@@ -54,22 +54,33 @@
 * [Acknowledgements](#acknowledgements)
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+#### The Problem:
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Even as the world continues to become more dependent on technology that can save time, money, resources, and lives, there is a lack of technological advancements related in time and attendance systems. A [recent survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) found that 36% of small business owners have never changed their time and attendance system. Altough digitizing a time and attendance system may seem insignificant, digitized systems can help to ensure accuracy and minimize errors that can easily happen when employees, teachers, and students are using paper or a spreadsheet. In fact, nearly half of the respondents to the [same survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) said that the most important reason to invest in a time keeping solution was the efficiency and accuracy of collecting time for payroll reporting. Thus, while those options appear to be both simple and free, organizations that choose to go that route are missing out on saving time, money, and insight into their workforce that ultimately provides employees and teachers with simplified methods to record their time worked.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+#### Our Solution:
+
+So, in order to prove that technology can be used to create an attendance system that can save employers and schools time, money, and resources, we took the approach of combining facial recognition, IoT, and an online system to create Recogg, the the first-ever AI-driven, multi-platform, and scalable attendance system. 
+
+The beauty of Recogg is that it uses the functionalities of multiple components to create a 
+
+This project is adaptable because...
+
+This project saves time, money, and resources because...
+
+This project is multi-platform because
+
+This platform is AI-Driven because
+
+
+### Features
+Here are the features for each component
 
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
@@ -82,7 +93,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ![CSS](https://img.shields.io/badge/css-3-yellow)
 ![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
-This project was built using a variety of programming languages, frameworks, APIs, and databases/storage containers. Here are the technologies broken down by which component used what.
+This project was built using a variety of programming languages, frameworks, APIs, and databases/storage containers. Here are the technologies broken down by which component used what:
 
 #### API
 
@@ -99,9 +110,6 @@ This project was built using a variety of programming languages, frameworks, API
 
 #### IoT
 * [Python](https://www.python.org/)
-
-
-### Features
 
 
 <!-- GETTING STARTED -->
