@@ -82,15 +82,24 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ![CSS](https://img.shields.io/badge/css-3-yellow)
 ![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project was built using a variety of programming languages, frameworks, APIs, and databases/storage containers. Here are the technologies broken down by which component used what.
 
-* [Node.js](https://nodejs.org/en/)
+#### API
+
 * [Python](https://www.python.org/)
 * [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
-* [Bootstrap](https://getbootstrap.com)
-* [HTML/CSS/JavaScript](https://html-css-js.com/)
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 * [Amazon S3](https://aws.amazon.com/s3/)
+
+#### Web Interface
+
+* [Node.js](https://nodejs.org/en/)
+* [Bootstrap](https://getbootstrap.com)
+* [HTML/CSS/JavaScript](https://html-css-js.com/)
+
+#### IoT
+* [Python](https://www.python.org/)
+
 
 ### Features
 
