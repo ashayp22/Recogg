@@ -79,6 +79,29 @@ Recogg was developed in 7 weeks as an [internship project](https://www.itexps.ne
 ### Features
 The beauty of Recogg is that it uses the features of multiple components to create a fully-functioning attendance system.
 
+#### API
+
+* Accurate Facial Recognition using AWS Facial Rekognition
+* Read/Write User Data to AWS DynamoDB
+* Read/Write/Get Attendance Data (CSV) from AWS S3
+
+#### Web Interface
+
+* User Authentication
+* Create/Remove Classrooms
+* Add/Remove Students & Employees
+* Live Attendance Tracking
+* Download Attendance to Local Machine
+* Responsive Design (Web and Mobile Devices)
+
+#### IoT
+
+* Accurate Facial Detection
+* Capture Faces using Raspberry Pi Camera
+* Update LCD Screen with Information
+* Turn On/Off using Button
+* Mobile with a Portable Battery
+
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
 ![Node.js](https://img.shields.io/badge/node-%3E%3D10.16.0-green)
