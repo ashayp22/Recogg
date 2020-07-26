@@ -68,21 +68,16 @@ Although digitizing a time and attendance system may seem insignificant, digitiz
 
 #### Our Solution:
 
-So, in order to prove that technology can be used to create an attendance system that can save employers and schools time, money, and resources, we took the approach of combining facial recognition, Internet of Things, and an online system to create Recogg, the the first-ever AI-driven, multi-platform, and scalable attendance system. 
+So, in order to prove that technology can be used to create an attendance system that can save employers and schools time, money, and resources, we created Recogg, the first-ever AI-driven, multi-platform, and scalable attendance system. Recogg uses:
 
-The beauty of Recogg is that it uses the functionalities of multiple components to create a fully-functioning attendance system. The facial recognition 
+* A camera and facial recognition to track attendance
+* A database and storage container to save an organization's attendance data
+* A web interface, Raspberry Pi, and LCD screen to display an organization's information
 
-This project is adaptable because...
-
-This project saves time, money, and resources because...
-
-This project is multi-platform because
-
-This platform is AI-Driven because
-
+Recogg was developed in 7 weeks as an [internship project](https://www.itexps.net/internship-programs) and developed as a concept/prototype for future production projects. 
 
 ### Features
-Here are the features for each component
+The beauty of Recogg is that it uses the features of multiple components to create a fully-functioning attendance system.
 
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
