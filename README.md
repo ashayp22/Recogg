@@ -79,13 +79,13 @@ Recogg was developed in 7 weeks as an [internship project](https://www.itexps.ne
 ### Features
 The beauty of Recogg is that it uses the features of multiple components to create a fully-functioning attendance system.
 
-#### API
+#### [API](https://github.com/ashayp22/Recogg/tree/master/API)
 
 * Accurate Facial Recognition using AWS Facial Rekognition
 * Read/Write User Data to AWS DynamoDB
 * Read/Write/Get Attendance Data (CSV) from AWS S3
 
-#### Web Interface
+#### [Web Interface](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
 
 * User Authentication
 * Create/Remove Classrooms
@@ -94,7 +94,7 @@ The beauty of Recogg is that it uses the features of multiple components to crea
 * Download Attendance to Local Machine
 * Responsive Design (Web and Mobile Devices)
 
-#### IoT
+#### [IoT](https://github.com/ashayp22/Recogg/tree/master/IoT)
 
 * Accurate Facial Detection
 * Capture Faces using Raspberry Pi Camera
@@ -115,20 +115,20 @@ The beauty of Recogg is that it uses the features of multiple components to crea
 
 This project was built using a variety of programming languages, frameworks, APIs, and databases/storage containers. Here are the technologies broken down by which component used what:
 
-#### [API](https://github.com/ashayp22/Recogg/tree/master/API)
+#### API
 
 * [Python](https://www.python.org/)
 * [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 * [Amazon S3](https://aws.amazon.com/s3/)
 
-#### [Web Interface](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
+#### Web Interface
 
 * [Node.js](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JavaScript](https://html-css-js.com/)
 
-#### [IoT](https://github.com/ashayp22/Recogg/tree/master/IoT)
+#### IoT
 * [Python](https://www.python.org/)
 
 
