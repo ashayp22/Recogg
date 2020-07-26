@@ -42,6 +42,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [Features](#features)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -59,14 +60,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-#### The Problem:
-
 Even as the world continues to become more dependent on technology that can save time, money, resources, and lives, there is a lack of technological advancements related in time and attendance systems. A [recent survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) found that 36% of small business owners have never changed their time and attendance system. In fact, once a time and attendance approach is adopted, many business owners and other people don’t change their method. This means that those people are relying on the same ancient and manual systems from the 19th century. 
 
 Although digitizing a time and attendance system may seem insignificant, digitized systems can help to ensure accuracy and minimize errors that can easily happen when employees, teachers, and students are using paper or a spreadsheet. In fact, nearly half of the respondents to the [same survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) said that the most important reason to invest in a time keeping solution was the efficiency and accuracy of collecting time for payroll reporting. Thus, while those options appear to be both simple and free, organizations that choose to go that route are missing out on saving time, money, and insight into their workforce that ultimately provides employees and teachers with simplified methods to record their time worked.
-
-
-#### Our Solution:
 
 So, in order to prove that technology can be used to create an attendance system that can save employers and schools time, money, and resources, we created Recogg, the first-ever AI-driven, multi-platform, and scalable attendance system. Recogg uses:
 
