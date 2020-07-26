@@ -112,42 +112,24 @@ This project was built using a variety of programming languages, frameworks, API
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+In order to get Recogg started locally, you need to assemble the 3 components individually. Please follow this order when getting started:
 
-### Prerequisites
+1. [Deploy the API](https://github.com/ashayp22/Recogg/tree/master/API)
+2. [Setup Web Interface)(https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
+3. [Create the IoT Component](https://github.com/ashayp22/Recogg/tree/master/IoT)
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
+After completing the previous 3 steps, you will have a local web-interface and IoT system and cloud-based API up and running. 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Since Recogg was developed as a prototype, we highly encourage you to continue improving what we have created. **Make sure to list us as the original authors, especially if you use any of our code, documentation, or instructions.**
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Some examples of how Recogg can be expanded:
 
+* Swap out the Web Interface for a Raspberry Pi Interface
+* Swap out the Camera, Raspberry Pi, and LCD Screen for a mobile device
+* Expand the any of the components by providing additional functionalities
 
 
 <!-- AUTHORS -->
@@ -157,7 +139,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * [Manas Gandhi](https://www.linkedin.com/in/manas-gandhi-358827199/) - IoT (Raspberry Pi)
 * [Izhaan Hussain](https://www.linkedin.com/in/izhaan-hussain-0baa711a7/) - Web Interface (Frontend)
 * [Sebastian DSouza](https://www.linkedin.com/in/sebastian-dsouza-975b311a2/) - IoT (Hardware)
-
 
 
 <!-- CONTRIBUTING -->
@@ -171,14 +152,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the GPL-3.0 License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
