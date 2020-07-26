@@ -138,7 +138,7 @@ This project was built using a variety of programming languages, frameworks, API
 In order to get Recogg started locally, you need to assemble the 3 components individually. Please follow this order when getting started:
 
 1. [Deploy the API](https://github.com/ashayp22/Recogg/tree/master/API)
-2. [Setup Web Interface)(https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
+2. [Setup Web Interface](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
 3. [Create the IoT Component](https://github.com/ashayp22/Recogg/tree/master/IoT)
 
 After completing the previous 3 steps, you will have a local web-interface and IoT system and cloud-based API up and running. 
