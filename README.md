@@ -115,20 +115,20 @@ The beauty of Recogg is that it uses the features of multiple components to crea
 
 This project was built using a variety of programming languages, frameworks, APIs, and databases/storage containers. Here are the technologies broken down by which component used what:
 
-#### API
+#### [API](https://github.com/ashayp22/Recogg/tree/master/API)
 
 * [Python](https://www.python.org/)
 * [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 * [Amazon S3](https://aws.amazon.com/s3/)
 
-#### Web Interface
+#### [Web Interface](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface)
 
 * [Node.js](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JavaScript](https://html-css-js.com/)
 
-#### IoT
+#### [IoT](https://github.com/ashayp22/Recogg/tree/master/IoT)
 * [Python](https://www.python.org/)
 
 
