@@ -48,6 +48,7 @@ User will then be prompted to go to [localhost:3000](localhost:3000), which user
 ## Usage
 
 Once user is in the web interface, they should click the button to get started:
+![](screenshots/homepage.JPG)
 
 
 ## More Information ##
