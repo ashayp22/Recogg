@@ -5,18 +5,6 @@
 ### Summary ###
 Through the web interface of Recogg, users are able to create classrooms and add students. The interface gives users the ability to track the attendance of each classroom live and create a spreadsheet for the class.
 
-### Built With
-![Node.js](https://img.shields.io/badge/node-%3E%3D10.16.0-green)
-![NPM](https://img.shields.io/badge/npm-%3E%3D6.9-orange)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%3E%3D4.0-red)
-![HTML](https://img.shields.io/badge/HTML-5-yellowgreen)
-![CSS](https://img.shields.io/badge/css-3-yellow)
-![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
-
-* [Node.js](https://nodejs.org/en/)
-* [Bootstrap](https://getbootstrap.com)
-* [HTML/CSS/JavaScript/JQuery](https://html-css-js.com/)
-
 ### Features
 
 * User Authentication
@@ -32,6 +20,22 @@ Through the web interface of Recogg, users are able to create classrooms and add
   * Download spreadsheet with updated attendance of class
 * Responsive Design (Web and Mobile Devices)
   * Web Interface works on Mobile Devices (iPhone, iPad, Android, Samsung) and on Computers (Windows, Mac, Linux)
+
+### Architecture Diagram
+
+<img src="screenshots/Web Interface.png" alt="diagram" style="float: left; margin-right: 10px;" />
+
+### Built With
+![Node.js](https://img.shields.io/badge/node-%3E%3D10.16.0-green)
+![NPM](https://img.shields.io/badge/npm-%3E%3D6.9-orange)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%3E%3D4.0-red)
+![HTML](https://img.shields.io/badge/HTML-5-yellowgreen)
+![CSS](https://img.shields.io/badge/css-3-yellow)
+![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
+
+* [Node.js](https://nodejs.org/en/)
+* [Bootstrap](https://getbootstrap.com)
+* [HTML/CSS/JavaScript/JQuery](https://html-css-js.com/)
 
 ## Getting Started
 
