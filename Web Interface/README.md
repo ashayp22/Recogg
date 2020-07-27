@@ -50,7 +50,7 @@ User will then be prompted to go to [localhost:3000](localhost:3000), which user
 Once user is in the web interface, they should click the button to get started:
 <img src="screenshots/homepage.JPG"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;height:15%;width:15%" />
 
 
 ## More Information ##
