@@ -1,18 +1,26 @@
-# Recogg - API
+# Recogg - Web-Interface
 
 ###  ###
 
-![Preview]()
-
-type a brief summary here.
+![Summary]()
+Through the web interface of Recogg, users are able to create classrooms and add students. The interface gives users the ability to track the attendance of each classroom live and create a spreadsheet for the class.
 
 ### Built With
 
-list the technologies used here.
+1. Node JS
+2. HTML
+3. CSS
+4. JavaScript
+5. jQuery
+6. Bootstrap
 
 ### Features
 
-add the features here.
+1. Teacher or administrator can create an account
+2. Create classroom for each program/class the organization offers
+3. Add students to each classroom
+4. Track attendance of classroom live
+5. Download spreadsheet with full attendance of class
 
 ## Getting Started
 
