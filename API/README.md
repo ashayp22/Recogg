@@ -51,34 +51,57 @@ You need to have the following:
    * Language: Python 3.6
    * Timeout: >= 30 seconds
    * Trigger: API Gateway
-   
-![Image](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/pict2.PNG)
-
 3. Add an execution role with the following properties:
    * AmazonS3FullAccess
    * AmazonDynamoDBFullAccess
    * AmazonRekognitionFullAccess
    * AWSLambdaBasicExecutionRole
 
+![Image](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/pict2.PNG)
+
+#### DynamoDB
+
+1. Create a table called **accounts** with the following properties:
+ * Partition Key: username (String)
+ * Sort Key: password (String)
+2. Create a table called **classrooms** with the following properties:
+ * Partition Key: uid (String)
+ 
+#### S3
+
+1. Create an S3 bucket called classattendance. Leave the options to the default options.
+
 #### API Gateway
 
+![Image](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/pict3.PNG)
+
+1. Create a new regional REST API in the API Gateway console
+2. Create a new resource for each of the Lambda Functions with the following properties:
+ * Resource Name: Same as the Lambda Function
+3. Create a new POST request under each resource with the following properties:
+ * Integration Type: Lambda Function
+ * Use Lambda Proxy integration: True
+ * Lambda Region: Same Region as the Lambda Functions
+ * Lambda Function: Select the corresponding Lambda Function
+ * Use Default Timeout: True
+4. Add the Binary Media Types under the Settings Tab:
+ * */*
+ * image/jpeg
+ * image/png
+ * multipart/form-data
+ * application/json
+ * application/octet-stream
+5. Create a new stage and deploy the API for testing
 
 #### Connect to other components
 
+At this point, you should have a functioning API running with an endpoint for each of the lambda functions. You should also have the Lambda Functions connected to data storages, specifically an S3 bucket, two DyanmoDB tables, and AWS Rekognition Collections. Now, you are reading to add the endpoints to the other components so they can call the API.
 
-2. 
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+##### IoT
+
+
+###### Web Interface
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
