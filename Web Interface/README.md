@@ -100,6 +100,11 @@ If a student is present, there will be an "X" next to their name corresponding t
 If a user wants to delete an account, they can go to the account page, which is accessible from the top navigation bar. Once there, the user can click the delete organization button:
 <img src="screenshots/account.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
+Finally, all of the functionalities above can be done on a mobile device:
+
+<img src="screenshots/mobile.JPG" alt="Mobile" style="float: left; margin-right: 10px;" />
+
+
 ## More Information ##
 
 For more information licenses, contributing, errors, and other components, visit the [front of the repository](https://github.com/ashayp22/Recogg).
