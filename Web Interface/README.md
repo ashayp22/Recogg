@@ -2,7 +2,7 @@
 
 ###  ###
 
-![Summary]()
+### Summary ###
 Through the web interface of Recogg, users are able to create classrooms and add students. The interface gives users the ability to track the attendance of each classroom live and create a spreadsheet for the class.
 
 ### Built With
@@ -24,8 +24,7 @@ Through the web interface of Recogg, users are able to create classrooms and add
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js.
 
 ### Prerequisites
 
