@@ -1,6 +1,6 @@
 # Recogg - API
 
-![API Diagram](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/API%20Diagram.png)
+![API Diagram](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/API%20Diagram%20(1).png)
 
 ###  Summary
 
