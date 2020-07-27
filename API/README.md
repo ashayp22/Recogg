@@ -85,7 +85,6 @@ You need to have the following:
    * Lambda Function: Select the corresponding Lambda Function
    * Use Default Timeout: True
 4. Add the Binary Media Types under the Settings Tab:
-   * */*
    * image/jpeg
    * image/png
    * multipart/form-data
