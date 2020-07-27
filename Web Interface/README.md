@@ -6,44 +6,69 @@
 Through the web interface of Recogg, users are able to create classrooms and add students. The interface gives users the ability to track the attendance of each classroom live and create a spreadsheet for the class.
 
 ### Built With
+![Node.js](https://img.shields.io/badge/node-%3E%3D10.16.0-green)
+![NPM](https://img.shields.io/badge/npm-%3E%3D6.9-orange)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%3E%3D4.0-red)
+![HTML](https://img.shields.io/badge/HTML-5-yellowgreen)
+![CSS](https://img.shields.io/badge/css-3-yellow)
+![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
-1. Node JS
-2. HTML
-3. CSS
-4. JavaScript
-5. jQuery
-6. Bootstrap
+
+* [Node.js](https://nodejs.org/en/)
+* [Bootstrap](https://getbootstrap.com)
+* [HTML/CSS/JavaScript/JQuery](https://html-css-js.com/)
 
 ### Features
 
-1. Teacher or administrator can create an account
-2. Create classroom for each program/class the organization offers
-3. Add students to each classroom
-4. Track attendance of classroom live
-5. Download spreadsheet with full attendance of class
+* User Authentication
+  * Secure User Sessions using Passport
+  * Encrypted User Data using bcrypt
+* Create/Remove Classrooms
+  * Organizations can create classes
+* Add/Remove Students & Employees
+  * Organizations can add/remove students from the system
+* Live Attendance Tracking
+  * The interface provides live attendance tracking
+* Download Attendance to Local Machine
+  * Download spreadsheet with updated attendance of class
+* Responsive Design (Web and Mobile Devices)
+  * Web Interface works on Mobile Devices (iPhone, iPad, Android, Samsung) and on Computers (Windows, Mac, Linux)
 
 ## Getting Started
 
-In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js. Once node js and npm are completely installed, user should download the full [Web-Interface folder](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface).
+Follow along if you want to get the Web Interface running on your local machine.
 
 ### Prerequisites
 
-User should open the command prompt and change the directory to match that of the web-interface folder.
+In order to run the Web Interface locally, you must install:
 
-Then type in the following command:
-* npm
-```sh
-npm install npm@latest -g
+* [Node.js](https://nodejs.org/en/download/)
+* [NPM](https://www.npmjs.com/get-npm). 
+
+
+### Downloading to Local Machine
+
+1. First, download the full [Web Interface folder](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface). Then, unzip the folder to a secure location.
+2. Next, open up the Command Line (Terminal or Command Prompt) and change the directory to match that of the web interface folder.
+```
+cd \...\Web Interface
 ```
 
 ### Running the Interface
 
-In order to run the interface, the user must open up the command prompt and navigate to the web-interface folder. Once there, user should type the following command:
+In order to run the Web Interface, you must first download all of the dependencies listed in the package.json. Within the directory, type the following command:
 
 ```sh
+npm install
+```
+
+Next, type the following to run the web app locally:
+
+```
 node app.js
 ```
-User will then be prompted to go to [http://localhost:3000/](http://localhost:3000/), which the user should open up in their web browser.
+
+You will then be prompted to go to [http://localhost:3000/](http://localhost:3000/), which you should open up in their web browser.
 
 ## Usage
 
