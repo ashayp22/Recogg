@@ -47,10 +47,10 @@ User will then be prompted to go to [localhost:3000](localhost:3000), which user
 
 ## Usage
 
-Once user is in the web interface, they should click the button to get started:
+Once the user is in the web interface, they should click the button to get started:
 <img src="screenshots/homepage.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
-Once user creates an account, they will be redirected to the dashboard, which will display all of the classrooms, but is initially empty:
+Once the user creates an account, they will be redirected to the dashboard, which will display all of the classrooms, but is initially empty:
 <img src="screenshots/dashboard-empty.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 To create a classroom, user can click on the create class button and enter the class name. After adding in a few classes, the page will look similar to this:
@@ -64,7 +64,7 @@ To enter the classroom, the user can click on the button corresponding to the cl
 To add students to the class, the user can click the add student button and type in the student's name and upload the photo of the student's face. To remove a student, the user can click on the remove student button and type in the student's name. After adding in the students' names, the classroom will look similar to this:
 <img src="screenshots/class-full.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
-When it is time for a class to start and a teacher/administrator should click the new meeting button which will create a meeting corresponding to the current date. Then, the user should click the start tracking button. Once that happens, the user can track the attendance live; red means the student is not currently present, green means the student is currently present:
+When it is time for a class to start, the teacher/administrator should click the new meeting button which will create a meeting corresponding to the current date. Then, the user should click the start tracking button. Once that happens, the user can track the attendance live; red means the student is not currently present, green means the student is currently present:
 <img src="screenshots/class-red.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 Once the teacher wants to stop tracking the attendance, they can click on the stop tracking button.
