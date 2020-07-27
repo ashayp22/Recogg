@@ -43,7 +43,7 @@ In order to run the interface, the user must open up the command prompt and navi
 ```sh
 node app.js
 ```
-User will then be prompted to go to [localhost:3000](localhost:3000), which user should open up in their web browser.
+User will then be prompted to go to [http://localhost:3000/](http://localhost:3000/), which the user should open up in their web browser.
 
 ## Usage
 
