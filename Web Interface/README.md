@@ -24,38 +24,31 @@ Through the web interface of Recogg, users are able to create classrooms and add
 
 ## Getting Started
 
-In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js. Once node js and npm are completely installed, user should download the full [Web-Interface folder]().
+In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js. Once node js and npm are completely installed, user should download the full [Web-Interface folder](https://github.com/ashayp22/Recogg/tree/master/Web%20Interface).
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+User should open the command prompt and change the directory to match that of the web-interface folder.
+
+Then type in the following command:
 * npm
 ```sh
 npm install npm@latest -g
 ```
 
-### Installation
+### Running the Interface
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+In order to run the interface, the user must open up the command prompt and navigate to the web-interface folder. Once there, user should type the following command:
 
-<!-- USAGE EXAMPLES -->
+```sh
+node app.js
+```
+User will then be prompted to go to [localhost:3000](localhost:3000), which user should open up in their web browser.
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Once user is in the web interface, they should click the button to get started:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## More Information ##
 
