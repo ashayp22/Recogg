@@ -1,4 +1,4 @@
-# Recogg - Web-Interface
+# Recogg - Web Interface
 
 ###  ###
 
