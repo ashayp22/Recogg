@@ -62,9 +62,9 @@ Although digitizing a time and attendance system may seem insignificant, digitiz
 
 So, in order to prove that technology can be used to create an attendance system that can save employers and schools time, money, and resources, we created Recogg, the first-ever AI-driven, multi-platform, and scalable attendance system. Recogg uses:
 
-* A camera and facial recognition to track attendance
-* A database and storage container to save an organization's attendance data
-* A web interface, Raspberry Pi, and LCD screen to display an organization's information
+* A camera and facial recognition to track attendance - this increases the efficiency and accuracy of attendance tracking
+* A database and storage container to save an organization's attendance data - this provides a secure and organized structure for attendance data
+* A web interface, Raspberry Pi, and LCD screen to display an organization's information - this allows users to interact and monitor the system
 
 Recogg was developed in 7 weeks as an [internship project](https://www.itexps.net/internship-programs) and developed as a concept/prototype for future production-level projects. 
 
