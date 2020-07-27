@@ -62,10 +62,10 @@ You need to have the following:
 #### DynamoDB
 
 1. Create a table called **accounts** with the following properties:
- * Partition Key: username (String)
- * Sort Key: password (String)
+  * Partition Key: username (String)
+  * Sort Key: password (String)
 2. Create a table called **classrooms** with the following properties:
- * Partition Key: uid (String)
+  * Partition Key: uid (String)
  
 #### S3
 
