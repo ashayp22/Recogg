@@ -102,7 +102,7 @@ If a user wants to delete an account, they can go to the account page, which is 
 
 Finally, all of the functionalities above can be done on a mobile device:
 
-<img src="screenshots/mobile.PNG" alt="Mobile" width = "5" height = "10" style="float: left; margin-right: 10px;" />
+<img src="screenshots/mobile.PNG" alt="Mobile" width = "50" height = "100" style="float: left; margin-right: 10px;" />
 
 
 ## More Information ##
