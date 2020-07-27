@@ -6,32 +6,44 @@
 
 type a brief summary here.
 
-### Built With
-
-list the technologies used here.
-
 ### Features
 
-add the features here.
+The API has the following functionalities:
+
+* Accurate Facial Recognition using AWS Facial Rekognition
+  * Upload User Image and Convert to Facial Encoding
+  * Save Facial Encodings to Collections in the Cloud
+  * Refer to Previous Facial Encodings to perform Facial Verification
+* Read/Write User Data to AWS DynamoDB
+  * Create/Delete Organization Accounts, Individual Classrooms, and Students
+  * Get Specific Data on Classrooms and Live Attendance
+* Read/Write/Get Attendance Data (CSV) from AWS S3
+  * Get CSV file
+  * Update CSV file based on Facial Verification
+
+### Built With
+![Python](https://img.shields.io/badge/python-3.6-blue)
+
+* [Python](https://www.python.org/)
+* [Amazon Rekognition](https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc)
+* [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+* [Amazon S3](https://aws.amazon.com/s3/)
 
 ## Getting Started
 
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is an example of how you can get the API running in the cloud using AWS Lambda and AWS API Gateway
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+You need to have the following:
+
+* An AWS account
+* Prior knowledge on Python 3.6 and AWS Lambda/AWS API Gateway
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Download the source code from this repository folder.
+2. 
 2. Clone the repo
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
@@ -48,13 +60,14 @@ const API_KEY = 'ENTER YOUR API';
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Since Recogg was developed as a prototype, we highly encourage you to continue improving what we have created. **Make sure to list us as the original authors, especially if you use any of our code, documentation, or instructions.**
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Some examples of how the Recogg API can be expanded:
+
+* Deploy the API using another Cloud Platform
+* Add additional security to the API (ex: API keys)
+* Add more functionality to the API
 
 ## More Information ##
 
 For more information licenses, contributing, errors, and other components, visit the [front of the repository](https://github.com/ashayp22/Recogg).
-
-
-
