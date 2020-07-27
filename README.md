@@ -43,6 +43,7 @@
 
 * [About the Project](#about-the-project)
   * [Features](#features)
+  * [Architecture](#architecture)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
 * [Usage](#usage)
@@ -93,6 +94,12 @@ The beauty of Recogg is that it uses the features of multiple components to crea
 * Update LCD Screen with Information
 * Turn On/Off using Button
 * Mobile with a Portable Battery
+
+#### Architecture
+
+This is the E2E architecture diagram with all of the technologies and tools:
+
+![Architecture](https://github.com/ashayp22/Recogg/blob/master/images/Main%20Architecture.png)
 
 ### Built With
 ![Platform](https://img.shields.io/badge/platforms-web%20%7C%20raspberry%20pi-blue)
