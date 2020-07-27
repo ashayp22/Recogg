@@ -44,17 +44,21 @@ You need to have the following:
 
 #### AWS Lambda
 
+![Image](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/pict1.PNG)
+
 1. Download the source code from this repository folder.
 2. For each of the Python script files, create a new Lambda Function with the following settings:
    * Language: Python 3.6
    * Timeout: >= 30 seconds
    * Trigger: API Gateway
+   
+![Image](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/pict2.PNG)
+
 3. Add an execution role with the following properties:
    * AmazonS3FullAccess
    * AmazonDynamoDBFullAccess
    * AmazonRekognitionFullAccess
    * AWSLambdaBasicExecutionRole
-
 
 #### API Gateway
 
