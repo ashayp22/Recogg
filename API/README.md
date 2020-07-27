@@ -1,5 +1,7 @@
 # Recogg - API
 
+![API Diagram](https://github.com/ashayp22/Recogg/blob/master/API/screenshots/API Diagram.png)
+
 ###  Summary
 
 The Recogg API serves as the backend for all other components connected to the Recogg System. The API allows for communication between the Web Interface and IoT device, is able to recieve requests and send responses to all components, and connects the Web Interface and IoT device to the database. 
