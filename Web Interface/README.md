@@ -13,7 +13,6 @@ Through the web interface of Recogg, users are able to create classrooms and add
 ![CSS](https://img.shields.io/badge/css-3-yellow)
 ![JavaScript](https://img.shields.io/badge/javascript-%3E%3D8-brightgreen)
 
-
 * [Node.js](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JavaScript/JQuery](https://html-css-js.com/)
@@ -43,7 +42,7 @@ Follow along if you want to get the Web Interface running on your local machine.
 In order to run the Web Interface locally, you must install:
 
 * [Node.js](https://nodejs.org/en/download/)
-* [NPM](https://www.npmjs.com/get-npm). 
+* [NPM](https://www.npmjs.com/get-npm)
 
 
 ### Downloading to Local Machine
@@ -75,7 +74,7 @@ You will then be prompted to go to [http://localhost:3000/](http://localhost:300
 Once the user is in the web interface, they should click the button to get started:
 <img src="screenshots/homepage.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
-Once the user creates an account, they will be redirected to the dashboard, which will display all of the classrooms, but is initially empty:
+Once the user creates an account, they will be redirected to the dashboard. The dashboard will display all of the classrooms, but it starts off empty:
 <img src="screenshots/dashboard-empty.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 To create a classroom, user can click on the create class button and enter the class name. After adding in a few classes, the page will look similar to this:
@@ -96,11 +95,10 @@ Once the teacher wants to stop tracking the attendance, they can click on the st
 
 If the teacher wants a spreadsheet on which there is the attendance of each date that there was a meeting created, they can click on the download attendance button. Once the teacher opens the downloaded file, the spreadsheet will look like this:
 <img src="screenshots/spreadsheet.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
-If a student is present, there will be an x next to their name corresponding to each date there was a meeting. In the image above, no students were present.
+If a student is present, there will be an "X" next to their name corresponding to each date there was a meeting. In the image above, no students were present.
 
-If a user wants to delete an account, they can go on the account page which is accessible from the top navigation bar. Once there, the user can click the delete organization button:
+If a user wants to delete an account, they can go to the account page, which is accessible from the top navigation bar. Once there, the user can click the delete organization button:
 <img src="screenshots/account.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
-
 
 ## More Information ##
 
