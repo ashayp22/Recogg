@@ -24,7 +24,7 @@ Through the web interface of Recogg, users are able to create classrooms and add
 
 ## Getting Started
 
-In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js.
+In order to run the interface, the user must install node js which can be found [here](https://nodejs.org/en/download/). They will also need to install npm which gets downloaded with node js. Once node js and npm are completely installed, user should download the full [Web-Interface folder]().
 
 ### Prerequisites
 
