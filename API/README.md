@@ -62,10 +62,10 @@ You need to have the following:
 #### DynamoDB
 
 1. Create a table called **accounts** with the following properties:
-  * Partition Key: username (String)
-  * Sort Key: password (String)
+   * Partition Key: username (String)
+   * Sort Key: password (String)
 2. Create a table called **classrooms** with the following properties:
-  * Partition Key: uid (String)
+   * Partition Key: uid (String)
  
 #### S3
 
@@ -77,20 +77,20 @@ You need to have the following:
 
 1. Create a new regional REST API in the API Gateway console
 2. Create a new resource for each of the Lambda Functions with the following properties:
- * Resource Name: Same as the Lambda Function
+   * Resource Name: Same as the Lambda Function
 3. Create a new POST request under each resource with the following properties:
- * Integration Type: Lambda Function
- * Use Lambda Proxy integration: True
- * Lambda Region: Same Region as the Lambda Functions
- * Lambda Function: Select the corresponding Lambda Function
- * Use Default Timeout: True
+   * Integration Type: Lambda Function
+   * Use Lambda Proxy integration: True
+   * Lambda Region: Same Region as the Lambda Functions
+   * Lambda Function: Select the corresponding Lambda Function
+   * Use Default Timeout: True
 4. Add the Binary Media Types under the Settings Tab:
- * */*
- * image/jpeg
- * image/png
- * multipart/form-data
- * application/json
- * application/octet-stream
+   * */*
+   * image/jpeg
+   * image/png
+   * multipart/form-data
+   * application/json
+   * application/octet-stream
 5. Create a new stage and deploy the API for testing
 
 #### Connect to other components
