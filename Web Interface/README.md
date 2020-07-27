@@ -1,6 +1,6 @@
 # Recogg - Web Interface
 
-###  ###
+<img src="screenshots/homepage.JPG" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 ### Summary ###
 Through the web interface of Recogg, users are able to create classrooms and add students. The interface gives users the ability to track the attendance of each classroom live and create a spreadsheet for the class.
