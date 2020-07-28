@@ -101,6 +101,8 @@ git clone https://github.com/your_username_/Recogg.git
 
 Finally, connect the API to the IoT device. Modify the following line in **pyface.py**.
 
+```
+```
 
 Once you are done with this, run the python script **pyface.py** using Python 3.6. The IoT device should now be working.
 
@@ -108,6 +110,11 @@ Once you are done with this, run the python script **pyface.py** using Python 3.
 ## Usage
 
 The IoT part of Recogg can be used for any kind of facial detection from an attendance system, to a door lock, to unlocking a computer. As this project is a prototype, we encourage improving it and using it for other purposes. **Make sure to list us as the original authors, especially if you use any of our code, documentation, or instructions.**
+
+Ways to expand the Recogg - IoT:
+
+* Create multiple IoT devices, all connected to the cloud
+* 3D print a body for the IoT device and make it compact
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
