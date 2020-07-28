@@ -6,6 +6,8 @@
 
 The Recogg API serves as the backend for all other components connected to the Recogg System. The API allows for communication between the Web Interface and IoT device, is able to recieve requests and send responses to all components, and connects the Web Interface and IoT device to the database. 
 
+In addition, the API allows for data to be stored in the Cloud using [Amazon Web Services](https://aws.amazon.com/). This allows the attendance data to be modified from another component, such as an IoT device or Web Interface.
+
 The API has 13 endpoints, all POST requests, that require the request to be multi-part/form and pass in specific data. The API always sends back a response with the success/error, a message, and any additional data.
 
 For this project, the API was only developed for testing purposes.
