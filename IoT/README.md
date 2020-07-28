@@ -86,7 +86,7 @@ git clone https://github.com/your_username_/Recogg.git
       * Pin 6 - GPIO 16
       * Pin 7 - GPIO 20 
       * Pin 8 - GPIO 21 
-<img src="images/keypadImage.png" width="200" height="200" alt="Keypad Image" style="float: left; margin-right: 10px;" />
+      <img src="images/keypadImage.png" width="200" height="200" alt="Keypad Image" style="float: left; margin-right: 10px;" />
    * LCD Screen Pins
       * GND - GND
       * VCC - 5V 
@@ -95,7 +95,7 @@ git clone https://github.com/your_username_/Recogg.git
    * Button Pins
       * RXD0
       * 3.3V
-<img src="images/buttonImage.jpg" width="200" height="200" alt="Button Image" style="float: left; margin-right: 10px;" />
+   <img src="images/buttonImage.jpg" width="200" height="200" alt="Button Image" style="float: left; margin-right: 10px;" />
 
 ### Final Steps
 
