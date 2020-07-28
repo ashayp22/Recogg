@@ -55,6 +55,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![Project Image](https://github.com/ashayp22/Recogg/blob/master/images/combine_images%20(2).jpg)
+
 Even as the world continues to become more dependent on technology that can save time, money, resources, and lives, there is a lack of technological advancements in the time and attendance management field. A [recent survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) found that 36% of small business owners have never changed their time and attendance system, which have been used to track and monitor when employees start and stop work. In fact, once a time and attendance approach is adopted, many business owners and other people don’t change their method. This means that those people are relying on the same ancient and manual systems from the 19th century. 
 
 Although digitizing a time and attendance system may seem insignificant, digitized systems can help to ensure accuracy and minimize errors that can easily happen when employees, teachers, and students are using paper or a spreadsheet. In fact, nearly half of the respondents to the [same survey](https://www.paychex.com/newsroom/news-releases/paychex-small-business-snapshot-survey-shows-most-preferred-method-of) said that the most important reason to invest in a time keeping solution was the efficiency and accuracy of collecting time for payroll reporting. Thus, while those options appear to be both simple and free, organizations that choose to go that route are missing out on saving time, money, and insight into their workforce that ultimately provides employees and teachers with simplified methods to record their time worked.
