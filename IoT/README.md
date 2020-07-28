@@ -16,9 +16,20 @@ Recogg uses the Raspberry-Pi in conjunction with other hardware components to pe
 
 <!-- BUILT WITH -->
 ### Built With
+![Raspberry-Pi](https://img.shields.io/badge/raspberry--pi-4-green)
+![Python](https://img.shields.io/badge/python-3.6-blue)
 
-* [Python](https://img.shields.io/badge/python-3.6-blue)
-* [Raspberry-Pi](https://img.shields.io/badge/raspberry--pi-4-green)
+* [Python](https://www.python.org/)
+
+## Getting Started
+
+Learn how to set up a local IoT device and connect it to the API.
+
+### Prerequisites
+
+You will need the following hardware:
+
+* [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 * [Camera](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS/ref=sr_1_3?dchild=1&keywords=raspberry+pi+camera&qid=1592857047&sr=8-3)
 * [Bread Board](https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=sr_1_1_sspa?dchild=1&keywords=breadboard&qid=1595879460&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSDVaOVZTQjhRTE0xJmVuY3J5cHRlZElkPUEwNzA0MjMxMjU2VDhZOU45VzVFUiZlbmNyeXB0ZWRBZElkPUEwNTI0ODkxMTVLQVI1Vk9QVEE5OCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 * [Button](https://www.amazon.com/6x6x6mm-Momentary-Push-Button-Switch/dp/B01GN79QF8/ref=sr_1_5?dchild=1&keywords=raspberry+pi+button&qid=1595879504&sr=8-5)
@@ -28,37 +39,33 @@ Recogg uses the Raspberry-Pi in conjunction with other hardware components to pe
 * [4 x 4 Number Pad](https://www.amazon.com/YETAIDA-Arduino-Universial-Keyboard-Membrane/dp/B07Q7FW8B9/ref=sr_1_1_sspa?dchild=1&keywords=4x4+raspberry+pi+keypad&qid=1595878846&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzR0FYWFRWTklaNEY5JmVuY3J5cHRlZElkPUEwOTc4NDM2MTBPQzVPUldBREpUUiZlbmNyeXB0ZWRBZElkPUEwNTg1OTIxMkNQWjkzT0dBNkdHOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 * [Battery Pack](https://www.amazon.com/Battery-Pack-Raspberry-4000mAh-Suction/dp/B07BSG7V3J)
 
-## Getting Started
-1. Set up Raspberry-Pi
-    * [See hardware guide](#hardware-guide)
-2. [Install necessary software](#installation)
-3. [Set up necessary hardware](#hardware-guide)
-4. [Download files in IoT repository](#installation)
-
-### Prerequisites
-* [Buy all necessary hardware](#built-with)
-* [Install necessary software](#installation)
   
 <!-- INSTALLATION -->
 ### Installation
-1. [Install Python](https://img.shields.io/badge/python-3.6-blue)
-2. Install Python libraries (Use linux terminal on Raspberry-Pi) 
-   * PIP installer for Python3
+1. Install [Python 3.6](https://www.python.org/downloads/release/python-360/)
+2. Install Python libraries (Use the linux terminal on Raspberry-Pi) 
+   * PIP installer for Python 3.6
    ```sh
    sudo apt-get install python3-pip
    ```
-   * numpy
-   ```sh
-   pip install numpy
+   * Latest version for the following libraries
    ```
-   * opencv
-   ```sh
-   pip install python-opencv
+   import cv2
+   import numpy as np
+   import requests
+   import picamera
+   from time import sleep
+   import I2C_LCD_driver
+   from time import *
+   from time import sleep
+   import RPi.GPIO as GPIO
+   import keypad as kp
    ```
-3. Clone the repo
+3. Clone the repo or obtain a zipped version of the repository
 ```sh
 git clone https://github.com/your_username_/Recogg.git
 ```
+4. Move the project folder to a secure location on your computer.
 
 <!-- HARDWARE GUIDE -->
 ### Hardware Guide
@@ -89,6 +96,13 @@ git clone https://github.com/your_username_/Recogg.git
       * RXD0
       * 3.3V
 <img src="images/buttonImage.jpg" width="200" height="200" alt="Button Image" style="float: left; margin-right: 10px;" />
+
+### Final Steps
+
+Finally, connect the API to the IoT device. Modify the following line in **pyface.py**.
+
+
+Once you are done with this, run the python script **pyface.py** using Python 3.6. The IoT device should now be working.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
