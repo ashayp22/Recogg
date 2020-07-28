@@ -181,9 +181,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ashay Parikh - [@ashayp22](mailto:ashayp22@gmail.com)
-
-
+Click [me](mailto:ashayp22@gmail.com) to send an email to the authors.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
