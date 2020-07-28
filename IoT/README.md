@@ -6,6 +6,14 @@
 
 Recogg uses the Raspberry-Pi in conjunction with other hardware components to perform comprehensive facial detection, manipulate an LCD interface, and switch between states using a button. This automates the modern day attendance system and automatically update classroom attendance (stored in the cloud), eliminating the human error that can occur when manually taking attendance, especially in large classes.
 
+### Features
+* Accurate Facial Detection
+* Capture Faces using Raspberry Pi Camera
+* Update LCD Screen with Information
+* Allow entry of a class uid using a keypad
+* Turn On/Off using Button
+* Mobile with a Portable Battery
+
 <!-- BUILT WITH -->
 ### Built With
 
@@ -19,14 +27,6 @@ Recogg uses the Raspberry-Pi in conjunction with other hardware components to pe
 * [20 x 4 I2C LCD Screen](https://www.amazon.com/dp/B01GPUMP9C/ref=twister_B0784SYKBM?_encoding=UTF8&psc=1)
 * [4 x 4 Number Pad](https://www.amazon.com/YETAIDA-Arduino-Universial-Keyboard-Membrane/dp/B07Q7FW8B9/ref=sr_1_1_sspa?dchild=1&keywords=4x4+raspberry+pi+keypad&qid=1595878846&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzR0FYWFRWTklaNEY5JmVuY3J5cHRlZElkPUEwOTc4NDM2MTBPQzVPUldBREpUUiZlbmNyeXB0ZWRBZElkPUEwNTg1OTIxMkNQWjkzT0dBNkdHOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 * [Battery Pack](https://www.amazon.com/Battery-Pack-Raspberry-4000mAh-Suction/dp/B07BSG7V3J)
-
-### Features
-* Accurate Facial Detection
-* Capture Faces using Raspberry Pi Camera
-* Update LCD Screen with Information
-* Allow entry of a class uid using a keypad
-* Turn On/Off using Button
-* Mobile with a Portable Battery
 
 ## Getting Started
 1. Set up Raspberry-Pi
