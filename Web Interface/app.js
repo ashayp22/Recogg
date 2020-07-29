@@ -20,7 +20,7 @@ function getUser(username) {
   return new Promise((resolve, reject) => {
       var options = {
         'method': 'POST',
-        'url': '', //endpoint of verifying account
+        'url': process.env.VERIFY_ACCOUNT, //endpoint of verifying account
         'headers': {
         },
         formData: {
@@ -121,7 +121,7 @@ app.post('/signup', checkNotAuthenticated, async (req, res) => {
 
         var options = {
         'method': 'POST',
-        'url': "", //endpoint for creating an account
+        'url': process.env.CREATE_ACCOUNT, //endpoint for creating an account
         'headers': {
         },
         formData: {
@@ -179,7 +179,7 @@ app.post('/allClassrooms', checkAuthenticated, (req, res) => {
   console.log(req.user.username)
   var options = {
     'method': 'POST',
-    'url': '', //endpoint for getting classrooms associated with the user account
+    'url': process.env.GET_CLASSROOMS, //endpoint for getting classrooms associated with the user account
     'headers': {
     },
     formData: {
@@ -205,7 +205,7 @@ app.post('/addClassroom', checkAuthenticated, (req, res) => {
   var name = req.body.classroom;
   var options = {
     'method': 'POST',
-    'url': '', //endpoint for creating a classroom
+    'url': process.env.CREATE_CLASSROOM, //endpoint for creating a classroom
     'headers': {
     },
     formData: {
@@ -232,7 +232,7 @@ app.post('/getClassData', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': '', //endpoint for getting classroom data
+    'url': process.env.GET_CLASSROOM_DATA, //endpoint for getting classroom data
     'headers': {
     },
     formData: {
@@ -267,7 +267,7 @@ app.post('/addFace', checkAuthenticated, (req, res) => {
       //upload image
       var options = {
         'method': 'POST',
-        'url': '', //endpoint
+        'url': process.env.UPLOAD_IMAGE, //endpoint
         'headers': {
         },
         formData: {
@@ -298,7 +298,7 @@ app.post('/newMeeting', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': '', //endpoint for new meeting
+    'url': process.env.NEW_MEETING, //endpoint for new meeting
     'headers': {
     },
     formData: {
@@ -318,7 +318,7 @@ app.post('/downloadAttendance', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': '', //endpoint for getting the attendance
+    'url': process.env.GET_ATTENDANCE, //endpoint for getting the attendance
     'headers': {
     },
     formData: {
@@ -342,7 +342,7 @@ app.post('/getUpdate', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': '', //get update endpoint
+    'url': process.env.GET_UPDATE, //get update endpoint
     'headers': {
     },
     formData: {
@@ -365,7 +365,7 @@ app.post('/getUpdate', checkAuthenticated, (req, res) => {
 app.post('/deleteAccount', checkAuthenticated, (req, res) => { 
   var options = {
     'method': 'POST',
-    'url': '', //delete account
+    'url': process.env.DELETE_ACCOUNT, //delete account
     'headers': {
     },
     formData: {
@@ -386,7 +386,7 @@ app.post('/deleteClass', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': '', //deletes a classroom
+    'url': process.env.DELETE_CLASSROOM, //deletes a classroom
     'headers': {
     },
     formData: {
@@ -408,7 +408,7 @@ app.post('/deleteStudent', checkAuthenticated, (req, res) => { //handles get req
 
   var options = {
     'method': 'POST',
-    'url': '', //delete student endpoint
+    'url': process.env.DELETE_STUDENT, //delete student endpoint
     'headers': {
     },
     formData: {
