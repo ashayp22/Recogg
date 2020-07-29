@@ -14,6 +14,10 @@ Recogg uses the Raspberry-Pi in conjunction with other hardware components to pe
 * Turn On/Off using Button
 * Mobile with a Portable Battery
 
+### Architecture Diagram
+
+![Diagram](https://github.com/ashayp22/Recogg/blob/master/IoT/images/Hardware%20Diagram%20(1).jpg)
+
 <!-- BUILT WITH -->
 ### Built With
 ![Raspberry-Pi](https://img.shields.io/badge/raspberry--pi-4-green)
