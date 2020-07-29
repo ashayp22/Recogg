@@ -100,12 +100,7 @@ You need to have the following:
 
 #### Connect to other components
 
-At this point, you should have a functioning API running with an endpoint for each of the lambda functions. You should also have the Lambda Functions connected to data storages, specifically an S3 bucket, two DyanmoDB tables, and AWS Rekognition Collections. Now, you are reading to add the endpoints to the other components so they can call the API.
-
-##### IoT
-
-
-###### Web Interface
+At this point, you should have a functioning API running with an endpoint for each of the lambda functions. You should also have the Lambda Functions connected to data storages, specifically an S3 bucket, two DyanmoDB tables, and AWS Rekognition Collections. Now, you are reading to add the endpoints to the other components so they can call the API. But, before you do that, you need to create the Web Interface and IoT component. The instructions for adding the endpoints will be found in the READMEs for the other two components.
 
 
 <!-- USAGE EXAMPLES -->
