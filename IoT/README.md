@@ -103,9 +103,10 @@ git clone https://github.com/your_username_/Recogg.git
 
 ### Final Steps
 
-Finally, connect the API to the IoT device. Modify the following line in **pyface.py**.
+Finally, connect the API to the IoT device. Modify the line 123 in **pyface.py** by setting the url to the endpoint for the API Post Request for Comparing Faces.
 
 ```
+url = ""
 ```
 
 Once you are done with this, run the python script **pyface.py** using Python 3.6. The IoT device should now be working.
