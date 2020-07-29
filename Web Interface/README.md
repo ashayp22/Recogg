@@ -65,6 +65,23 @@ In order to run the Web Interface, you must first download all of the dependenci
 npm install
 ```
 
+Next, edit the .env file by adding in the API's endpoints. The endpoint should look like **https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/StageName/verifyaccount**.
+
+```
+VERIFY_ACCOUNT = ''
+CREATE_ACCOUNT = ''
+GET_CLASSROOMS = ''
+CREATE_CLASSROOM = ''
+GET_CLASSROOM_DATA = ''
+UPLOAD_IMAGE = ''
+NEW_MEETING = ''
+GET_ATTENDANCE = ''
+GET_UPDATE = ''
+DELETE_ACCOUNT = ''
+DELETE_CLASSROOM = ''
+DELETE_STUDENT = ''
+```
+
 Next, type the following to run the web app locally:
 
 ```
