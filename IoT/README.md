@@ -1,7 +1,5 @@
 # Recogg - IoT
 
-### Summary ###
-
 ![Preview](https://github.com/ashayp22/Recogg/blob/master/IoT/images/hardware1.jpg)
 
 Recogg uses the Raspberry-Pi in conjunction with other hardware components to perform comprehensive facial detection, manipulate an LCD interface, and switch between states using a button. This automates the modern day attendance system and automatically update classroom attendance (stored in the cloud), eliminating the human error that can occur when manually taking attendance, especially in large classes.
