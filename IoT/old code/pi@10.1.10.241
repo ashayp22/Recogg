@@ -1,0 +1,70 @@
+import cv2
+import numpy as np
+import requests
+
+cap = cv2.VideoCapture(0) #capture the video camera
+#update loop updating every frame
+
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
+
+on = False
+counter = 0
+
+while True:
+
+    ret, img = cap.read()
+    img_copy = img.copy()
+    storeImage = False
+
+    '''
+    Check to see if the facial detection should occur. This should only occur when the button is in
+    State 1 (on)
+    '''
+
+    if on:
+        if counter % 60 == 15:
+            print("checking")
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            # print(gray)
+            # print("----")
+            faces = face_cascade.detectMultiScale(gray, 1.3, 5)  # gets the parts of the image that contains a face
+
+            face_found = False
+
+            for (x, y, w, h) in faces:
+                cv2.rectangle(img_copy, (x, y), (x + w, y + h), (255, 0, 0), 2)  # draw a rectangle
+                face_found = True
+
+
+            print(face_found)
+
+            if face_found:
+
+                cv2.imwrite("img.jpg", img)
+                url = "https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/verifyimage"
+                payload = {'Metadata': '{"organization": "itexpert"}'}
+                files = [
+                    ('file', open('img.jpg', 'rb'))
+                ]
+                headers = {}
+                response = requests.request("POST", url, headers=headers, data=payload, files=files)
+                body = response.json()
+
+                if body["error"] == False:
+                    print("Face Verified " + body['message'])
+                else:
+                    print("error")
+
+        #if the face was verified, then update the LCD screen
+
+    if counter == 61:
+        counter = 0
+
+    counter += 1
+
+    cv2.imshow('img', img_copy)
+    k = cv2.waitKey(30) & 0xff
+    if k == 100:
+        print("switched")
+        on = not on
