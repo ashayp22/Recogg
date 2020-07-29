@@ -20,7 +20,7 @@ function getUser(username) {
   return new Promise((resolve, reject) => {
       var options = {
         'method': 'POST',
-        'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/verifyaccount', //endpoint of verifying account
+        'url': '', //endpoint of verifying account
         'headers': {
         },
         formData: {
@@ -121,7 +121,7 @@ app.post('/signup', checkNotAuthenticated, async (req, res) => {
 
         var options = {
         'method': 'POST',
-        'url': "https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/createaccount", //endpoint for creating an account
+        'url': "", //endpoint for creating an account
         'headers': {
         },
         formData: {
@@ -179,7 +179,7 @@ app.post('/allClassrooms', checkAuthenticated, (req, res) => {
   console.log(req.user.username)
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/getclassrooms', //endpoint for getting classrooms associated with the user account
+    'url': '', //endpoint for getting classrooms associated with the user account
     'headers': {
     },
     formData: {
@@ -205,7 +205,7 @@ app.post('/addClassroom', checkAuthenticated, (req, res) => {
   var name = req.body.classroom;
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/createclassroom', //endpoint for creating a classroom
+    'url': '', //endpoint for creating a classroom
     'headers': {
     },
     formData: {
@@ -232,7 +232,7 @@ app.post('/getClassData', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/getclassroomdata', //endpoint for getting classroom data
+    'url': '', //endpoint for getting classroom data
     'headers': {
     },
     formData: {
@@ -267,7 +267,7 @@ app.post('/addFace', checkAuthenticated, (req, res) => {
       //upload image
       var options = {
         'method': 'POST',
-        'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/uploadimage', //endpoint
+        'url': '', //endpoint
         'headers': {
         },
         formData: {
@@ -298,7 +298,7 @@ app.post('/newMeeting', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/newmeeting', //endpoint for new meeting
+    'url': '', //endpoint for new meeting
     'headers': {
     },
     formData: {
@@ -318,7 +318,7 @@ app.post('/downloadAttendance', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/getattendance', //endpoint for getting the attendance
+    'url': '', //endpoint for getting the attendance
     'headers': {
     },
     formData: {
@@ -342,7 +342,7 @@ app.post('/getUpdate', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/getupdate', //get update endpoint
+    'url': '', //get update endpoint
     'headers': {
     },
     formData: {
@@ -365,7 +365,7 @@ app.post('/getUpdate', checkAuthenticated, (req, res) => {
 app.post('/deleteAccount', checkAuthenticated, (req, res) => { 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/deleteaccount', //delete account
+    'url': '', //delete account
     'headers': {
     },
     formData: {
@@ -386,7 +386,7 @@ app.post('/deleteClass', checkAuthenticated, (req, res) => {
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/deleteclassroom', //deletes a classroom
+    'url': '', //deletes a classroom
     'headers': {
     },
     formData: {
@@ -408,7 +408,7 @@ app.post('/deleteStudent', checkAuthenticated, (req, res) => { //handles get req
 
   var options = {
     'method': 'POST',
-    'url': 'https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/deletestudent', //delete student endpoint
+    'url': '', //delete student endpoint
     'headers': {
     },
     formData: {
