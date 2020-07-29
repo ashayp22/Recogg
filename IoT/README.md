@@ -103,7 +103,7 @@ git clone https://github.com/your_username_/Recogg.git
 
 ### Final Steps
 
-Finally, connect the API to the IoT device. Modify the line 123 in **pyface.py** by setting the url to the endpoint for the API Post Request for Comparing Faces.
+Finally, connect the API to the IoT device. Modify line 123 in **pyface.py** by setting the url to the endpoint for the API Post Request for Comparing Faces.
 
 ```
 url = "https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/StageName/verifyaccount"
