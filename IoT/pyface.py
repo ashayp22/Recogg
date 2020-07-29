@@ -120,7 +120,7 @@ while True: #Run forever
                 cv2.imwrite("img.jpg", img)
                 
                 # Access API to match the image taken to a verified face in the database
-                url = "https://05ezlcm1cf.execute-api.us-east-1.amazonaws.com/FacialWorking/verifyimage"
+                url = ""
                 payload = {'Metadata': '{"uid": "' + uid + '"}'}
                 files = [
                     ('file', open('img.jpg', 'rb'))
