@@ -1,0 +1,9 @@
+/* Formats logo on top navigation bar */
+#brand-image{
+  height: 65px;
+  width: 65px;
+}
+/* Formats signup form */
+#CAForm{
+  text-align:center;
+}

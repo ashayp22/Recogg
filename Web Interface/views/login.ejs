@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Yellowtail&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<link rel="stylesheet" href="css/extra.css">
+		<link rel="stylesheet" href="css/animation.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Login</title>
+	</head>
+	<body>
+		<header>
+			<!-- Top Navigation Bar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/home">
+						<img src="images/logo.png" id="brand-image">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/dashboard">Dashboard</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="/login">Login</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Background Animation -->
+			<ul class="circles">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+			</ul>
+			<!-- Login Form -->
+			<div class="row align-items-center justify-content-center">
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-5 col-xl-4" id="LIForm">
+					<form action="/login" method="POST">
+	  			<div>
+	  				<h1>Login</h1>
+	  				<p id="errorMsg"><%= msg %></p> <!-- Error message only displayed when there login failed -->
+		    		<label for="email">Username</label>
+		    		<input type="text" id="username" name="username" required>
+		  		</div>
+		  		<div>
+		    		<label for="password">Password</label>
+		    		<input type="password" id="password" name="password" required>
+		  		</div>
+		  		<button type="submit">Login</button>
+					</form>
+						<a href="/signup">Click Here to Make Account</a>
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>

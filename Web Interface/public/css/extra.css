@@ -1,0 +1,8 @@
+/* Font for the pages */
+body {
+  font-family: 'Roboto Mono', monospace !important;
+}
+/* Disables user interaction (only added when class is manually added through javascript) */
+.no-click {
+    pointer-events: none;
+}

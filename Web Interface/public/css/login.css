@@ -1,0 +1,14 @@
+/* Formats logo on top navigation bar */
+#brand-image{
+  height: 65px;
+  width: 65px;
+}
+/* Formats login form */
+#LIForm{
+  text-align:center;
+  margin-top:5%;
+}
+/*Formats error message displayed when login failed */
+#errorMsg{
+  color:red;
+}

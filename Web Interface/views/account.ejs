@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/account.css">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<link rel="stylesheet" href="css/animation.css">
+		<link rel="stylesheet" href="css/extra.css">
+		<meta charset="utf-8">
+		<script src="js/account.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Homepage</title>
+	</head>
+	<body>
+		<header>
+			<!-- Top Navigation Bar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/home">
+						<img class="img-responsive" id="brand-image" src="images/logo.png">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/dashboard">Dashboard</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="/account">Account</a>
+							</li>
+						</ul>
+						<!-- Logout Form -->
+						<div id="loForm">
+							<form action="/logout?_method=DELETE" method="POST">
+			  				<button class="btn btn-danger" id="logout" type="submit">Logout</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Organization Name Display & Delete Organization Button -->
+			<div id="acctInfo">
+				<p>Organization Name: <%= name %></p><br> <!-- Displays organization name which is rendered from app.js -->
+				<button type="button" class="btn btn-info" onclick = "deleteAccount()">Delete Account</button><!-- Deletes Account -->
+				<p id="errorMsg"><%= msg %></p> <!-- Displays error message -->
+			</div>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>

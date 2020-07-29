@@ -1,0 +1,96 @@
+/*Formats loading message in #functionsArea */
+#loadMsgFA{
+	text-align: center;
+	margin-top: 1%;
+}
+/* Formats forms to add and remove students */
+#formsDiv{
+  display:flex;
+}
+/* Formats loading animation on #studNames */
+#preloadImg{
+  margin-left:45%;
+  height:10%;
+  width:10%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+/* Formats error message */
+#errorMsg{
+	text-align:center;
+}
+/* Formats div to add student */
+#addFaceDiv{
+  display:inline-block;
+  margin-right:1%;
+  margin-top:0.5%;
+  text-align:center;
+}
+/* Formats form to remove student */
+#deleteFace{
+  display:inline-block;
+  margin-left:1%;
+  margin-top:0.5%;
+}
+/* Formats section that has all student names */
+#studNames{
+	display: inline-block;
+	border-color: black;
+	border-style: solid;
+	overflow-wrap: break-word;
+	margin-top:1%;
+}
+/* Formats each div with student's name */
+.studentDiv {
+	background-color: #FFA500;
+	height:3vw;
+	width:8vw;
+	border-radius:0.5vw;
+	margin:1vw;
+	display:inline-block;
+	text-align: center;
+	padding-top:1%;
+}
+/* Formats headers on the top of the page */
+#topText{
+	text-align:center;
+}
+/* Formats classroom functions area */
+#functionsArea{
+	text-align:center;
+	margin-top:1%;
+}
+/* Formats logo on top navigation bar */
+#brand-image{
+	height: 65px;
+	width: 65px;
+}
+/* Formats total body section */
+#bodySection{
+	background-color: #FFFFFF;
+}
+/* The following code is to make it responsive on phones */
+@media only screen and (max-width: 600px) {
+  .studentDiv{
+  	font-size:90%;
+  	height:80%;
+  	width:22%;
+  	border-radius:10%;
+  }
+  #studNames{
+  	padding-right:5%;
+  	padding-left:7.5%;
+  }
+  #spMessage{
+  	font-size:150%;
+  }
+  #dateDisplayed{
+  	font-size:125%;
+  }
+  #trackingBtn{
+  	margin-bottom:3%;
+  }
+  #NMBtn{
+  	margin-bottom:3%;
+  }
+}

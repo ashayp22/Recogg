@@ -1,0 +1,63 @@
+/* Formats loading animation on #classSection */
+#preloader_img{
+	margin-top: 25%;
+}
+/* Formats form to create class */
+#CCForm{
+	margin-top:40%;
+	text-align:center;
+}
+/* Formats div that has form to create and delete a class */
+#formsDiv{
+	display:flex;
+	margin-top: 25%;
+}
+/* Formats collapsable button that opens up form to delete class */
+#deleteBut{
+	margin-left:3%;
+}
+/* Formats logo on top navigation bar */
+#brand-image{
+	height: 65px;
+	width: 65px;
+}
+/* Formats total body section */
+#bodySection{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+/* Formats the section that holds all the classes */
+#classSection{
+	color: black;
+	position: absolute;
+	border-color: black;
+	justify-content: center;
+	align-content: center;
+	margin-left: 13.5%
+}
+/* Button to access each classroom (has class name on it) */
+.classroomButton {
+	background-color:#FDA000;
+	border-radius:2vw;
+	height:12vw;
+	width:12vw;
+	text-align:center;
+	padding-top:0vw;
+	font-size:1.5vw;
+	margin-top:2vw;
+	position:relative;
+	margin-left:1vw;
+	margin-right:1vw;
+	display:inline-block;
+}
+/* The following code is to make it responsive on phones */
+@media only screen and (max-width: 600px) {
+  #classSection{
+    margin-left:0%;
+    padding-right:15%;
+    margin-top:10%;
+  }	
+  #formsDiv{
+  	margin-top:100%;
+  }
+}

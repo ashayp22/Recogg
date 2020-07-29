@@ -1,0 +1,14 @@
+/* Formats error message for deleting organization */
+#errorMsg{
+  color:red;
+}
+/* Formats organization name */
+#acctInfo{
+  padding-top:3%;
+  padding-left:3%
+}
+/* Formats logo on top navigation bar */
+#brand-image{
+  height: 65px;
+  width: 65px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/class.css">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<link rel="stylesheet" href="css/extra.css">
+		<meta charset="utf-8">
+		<script src="js/class.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Homepage</title>
+	</head>
+		<header>
+			<!-- Top Navigation Bar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/home">
+						<img class="img-responsive" id="brand-image" src="images/logo.png">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/dashboard">Dashboard</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/account">Account</a>
+							</li>
+						</ul>
+						<!-- Logout Form -->
+						<div id="loForm">
+							<form action="/logout?_method=DELETE" method="POST">
+			  				<button id="logout" class="btn btn-danger" type="submit">Logout</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Body Section -->
+			<div id="bodySection">
+				<!-- Top Area of Page -->
+				<div id="studPres">
+					<!-- Top Headings -->
+					<div id="topText">
+						<h1 id="spMessage"></h1>
+						<h2 id="dateDisplayed"></h2>
+						<!-- Gets uid of class -->
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#getUID">Get UID</button> <!-- Click on button to get uid -->
+						<div id="getUID" class="collapse"> <!-- Only shown when button is clicked -->
+					    	<h3 id="classUID"></h3>
+					  	</div>
+					</div>
+					<!-- Displays students names in classroom -->
+					<div class="row align-items-center justify-content-center">
+						<div id="studNames" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
+							<div id="preloader_img"> <!-- Loading animation is only displayed when page is not fully loaded -->
+								<img id="preloadImg" src="images\preloader.gif">
+							</div>
+						</div>						
+					</div>
+				</div>
+				<!-- Classroom Functions Area -->
+				<div class="row align-items-center justify-content-center" id="functionsArea">
+					<div>
+						<input type = "button" id = "trackingBtn" class="btn btn-primary" value = "Start Attendance" onclick = "changeTracking()"> <!-- Starts tracking attendance -->
+						<input type = "button" id = "NMBtn" class="btn btn-primary" value = "New Meeting" onclick = "newMeeting()"> <!-- Creates new meeting -->
+						<input type = "button" class="btn btn-primary" value = "Download Attendance" onclick = "download()"> <!-- Downloads spreadsheet with full attendance of class -->
+					</div>
+				</div>
+				<p id="loadMsgFA">Loading...</p> <!--Loading messages before functions in #functionsArea complete task -->
+				<!-- Includes forms to add and remove students -->
+				<div class="row align-items-center justify-content-center" id="formsDiv">					
+					<div id="addFaceDiv">
+						<!-- Form to add student -->
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#getFaceAdd">Add Student</button> <!-- Click button to get form to add student -->
+						<div id="getFaceAdd" class="collapse"> <!-- Only displayed when button is clicked -->
+						    <div id="addFace" class="col-xs-12 col-sm-12 col-md-8 col-lg-5 col-xl-5">
+								<form id = "fileUploadForm">
+									<label for="faceName">Student Name</label><br>
+									<input name="faceName" type="text" id="faceName"><br><br>
+									<input type="file"  accept="image/*" name = "studentImage" id="faceImg"><br><br>
+									<button type="button" id="button" onclick="addStudent()">Add Student</button>
+								</form>
+								<div id="loadMsgAF">Loading...</div> <!-- Loading message for until student is added to page -->
+								<p id = "fileMessage"></p> <!-- Message passed in from back end in certain cases -->
+							</div>
+						</div>
+					</div>
+					<div id="deleteFace">
+						<!-- Form to remove student -->
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#delFace">Remove Student</button> <!-- Click button to get form to remove student -->
+						<div id="delFace" class="collapse"> <!-- Only displayed when buttton is clicked -->
+						    <form id = "delFaceForm">
+								<label for="faceDel">Student Name</label><br>
+								<input name="faceDel" type="text" id="faceDel"><br><br>
+								<button type="button" id="delButton" onclick="deleteStudent()">Remove Student</button>
+							</form>
+							<div id="loadMsgRS">Loading...</div> <!-- Loading message for until student is removed from page -->
+						</div>
+					</div>
+				</div>
+				<div id="errorMsg"> <!-- Displayed only when there is an error -->
+					<p id="errorMessage" style="color:red"></p>
+				</div>
+			</div>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>
+<script src="js/class.js"></script>

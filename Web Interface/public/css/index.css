@@ -1,0 +1,15 @@
+/* Centers welcome message */
+#centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Formats logo on top navigation bar */
+#brand-image{
+  height: 65px;
+  width: 65px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/createAccount.css">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<script src="js/signup.js"></script>
+		<link rel="stylesheet" href="css/extra.css">
+		<link rel="stylesheet" href="css/animation.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Create Account</title>
+	</head>
+	<body>
+		<header>
+			<!-- Top Navigation Bar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/home">
+						<img src="images/logo.png" id="brand-image">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/dashboard">Dashboard</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/login">Login</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Background Animation -->
+			<ul class="circles">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+			</ul>
+			<!-- Signup Form -->
+			<div class="row align-items-center justify-content-center">
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-5 col-xl-4" id="CAForm">
+					<form>
+						<h1>Create Account</h1>
+						<label for="orgName">Organization Name:</label><br>
+						<input name="orgName" type="text" id="orgName"><br><br>
+						<label for="username">Username:</label><br>
+						<input name="username" type="text" id="username"><br><br>
+						<label for="password">Password:</label><br>
+						<input name="password" type="password" id="password"><br><br>
+						<label for="passwordRep">Repeat Password:</label><br>
+						<input name="passwordRep" type="password" id="passwordRep"><br><br>
+						<button type="button" onclick="signup()">Create Account</button>
+						<p id="pwError" style="color:red"></p> <!-- Displayed when user chooses password that doesn't match requirements -->
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/dashboard.css">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<link rel="stylesheet" href="css/extra.css">
+		<script src="js/dashboard.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<header>
+			<!-- Top Navigation Bar -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/home">
+						<img class="img-responsive" id="brand-image" src="images/logo.png">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link active" href="/dashboard">Dashboard</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/account">Account</a>
+							</li>
+						</ul>
+						<!-- Logout Form -->
+						<div id="loForm">
+							<form action="/logout?_method=DELETE" method="POST">
+			  				<button id="logout" class="btn btn-danger" type="submit">Logout</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Body Section -->
+			<div class="container-fluid padding" id="bodySection">
+				<!-- Loads classes (buttons) onto page -->
+				<div class="row padding row align-items-center justify-content-center">
+					<div class="col-lg-6">
+						<div id="classSection" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
+							<div id="preloader_img"> <!-- Loading animation only displayed before classes fully load -->
+								<img id="preloadImg" style="height:15%;width:15%" src="images\preloader.gif">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Includes forms for creating and deleting class -->
+				<div class="row align-items-center justify-content-center" id="formsDiv">
+					<!-- Form to create class -->
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#addClassDiv" id="acBut">Create Class</button> <!-- Click on button to show form -->
+					<div class="collapse" id="addClassDiv"> <!-- Only shows when button is clicked -->
+						<form class="form-horizontal" id="CCForm">
+							<label for="className" class="control-label">Class Name:</label><br>
+							<input name="className" type="text" id="className"><br><br>
+							<button type="button" id="button" onclick="createNewClass()">Create Class</button>
+						</form>
+						<div id="loadMsgNC">Loading...</div> <!-- Loading message only displayed before new class is loaded -->
+					</div>
+					<!-- Form to delete class -->
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#deleteClass" id="deleteBut">Delete Class</button> <!-- Click on button to show form -->
+					<div id="deleteClass" class="collapse"> <!-- Only shows when button is clicked -->
+					    <form id = "deleteClassForm">
+							<label for="classDel">Class Name</label><br>
+							<input name="classDel" type="text" id="classDel"><br><br>
+							<button type="button" id="delButton" onclick="deleteClass()">Delete Class</button>
+						</form>
+						<div id="loadMsgDC">Loading...</div> <!-- Loading message only displayed before class is removed from page -->
+					</div>
+				</div>
+				<div id="errorMsg"> <!-- Displayed only when there is an error -->
+					<p id="errorMessage" style="color:red"></p><br>
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
