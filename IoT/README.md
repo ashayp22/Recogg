@@ -106,7 +106,7 @@ git clone https://github.com/your_username_/Recogg.git
 Finally, connect the API to the IoT device. Modify the line 123 in **pyface.py** by setting the url to the endpoint for the API Post Request for Comparing Faces.
 
 ```
-url = ""
+url = "https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/StageName/verifyaccount"
 ```
 
 Once you are done with this, run the python script **pyface.py** using Python 3.6. The IoT device should now be working.
@@ -120,8 +120,6 @@ Ways to expand the Recogg - IoT:
 
 * Create multiple IoT devices, all connected to the cloud
 * 3D print a body for the IoT device and make it compact
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## More Information ##
 
