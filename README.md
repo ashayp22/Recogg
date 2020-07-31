@@ -28,7 +28,7 @@
     <a href="https://github.com/ashayp22/Recogg"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ashayp22/Recogg">View Demo</a>
+    <a href="https://drive.google.com/file/d/1RIYtdJydTC6Voq9BGmnX6ocfJt22Cyct/view?usp=sharing">View Demo</a>
     ·
     <a href="https://github.com/ashayp22/Recogg/issues">Report Bug</a>
     ·
